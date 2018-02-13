@@ -1,0 +1,27 @@
+body {
+  /* margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color:  */
+  font-family: 'Righteous', cursive;
+  background-image: url('assets/sxxtreme2.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+h1 {
+  /* transform: rotate(-15deg); */
+  /* height: 100px; */
+  /* margin-bottom: 120px; */
+  font-size: 50px;
+
+
+}
+
+#App-title {
+  font-size: 50px;
+  /* transform: rotate(-10deg); */
+  position: static;
+  /* height:200px */
+}
