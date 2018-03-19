@@ -4,6 +4,7 @@ import React from 'react';
 class Contestant extends React.Component {
   constructor(props) {
     super(props)
+    this.name = ''
 
   }
 

@@ -23,7 +23,7 @@ class ContestantForm extends React.Component {
         <div>{this.name}</div>
         <form>
           <input onChange={this.updateAnswer}></input>
-          <button onClick={this.handleClick}>Is it Numberwang?</button>
+          <button onClick={this.handleClick}>And you are?</button>
         </form>
       </main>
     )

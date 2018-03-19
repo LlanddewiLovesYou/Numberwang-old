@@ -1,6 +1,14 @@
 .App {
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 1fr 20% 20% 20%;
   text-align: center;
 
+}
+
+.App Board {
+  grid-row: 2;
+  grid-column: 3;
 }
 
 .center {
@@ -10,6 +18,9 @@
 .logo {
   height:200px;
   width: 500px;
+  grid-row: 1;
+  grid-column: 3;
+  justify-self: center;
 }
 
 .App-logo {
@@ -28,6 +39,10 @@
 
 .App-intro {
   font-size: large;
+  grid-column: 3;
+  grid-row: 5;
+  justfy-self: center;
+  align-self: center;
 }
 
 .contestant-component {

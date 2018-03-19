@@ -37,7 +37,7 @@ randomColor() {
   render() {
 
     return (
-      <main>
+      <main className='board-wrapper'>
 
         <div className='full-board'>
           <div className='board-num-1'>{this.boardNumbers[0]}</div>

@@ -1,0 +1,15 @@
+.presenter {
+  grid-column: 3;
+  grid-row: 3;
+  justfy-self: center;
+  align-self: center;
+
+}
+
+.presenter-wrapper {
+
+}
+
+.presenter-text {
+  font-size: 40px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import ContestantForm from './contestantForm'
 import Contestant from './contestant'
+import '../css/contestantcomp.css'
 
 class ContestantComp extends React.Component {
   constructor(props) {
